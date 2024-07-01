@@ -32,9 +32,15 @@ Here, we load the dataset and inspect it.
 
 #### Visualizations of MRI Scans and Masks
 
-
 #### Distribution of Labels in Dataset
 
+![balance](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/c9c02921-25a7-41b6-8232-3178512d0104)
+
+#### Visualizing the images (MRI and Mask) in the dataset separately
+![Visualizing the images (MRI and Mask) in the dataset separately](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/f6f3621f-f9ba-42da-abd6-f9e8f09e7863)
+
+#### Visualization of MRI Scans and Corresponding Masks for Sick Patients
+![Visualizing 6 randomly selected (1) MRI scan images from only sick patients followed by (2) corresponding mask, (3) both MRI image and the corresponding mask (in red color) on top of each other](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/514bd9de-63c0-4777-a495-54934f1bea14)
 
 
 ### Splitting the Dataset into Training, Validation, and Testing Sets
@@ -73,14 +79,26 @@ The models are evaluated using metrics such as accuracy, precision, recall, and 
 
 #### Results of ResNet on Test Data
 
+##### Confusion Matrix
+![Confusion Matrix](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/76624873-b3b8-48d2-9e76-b07d6a3da878)
 
-The  **ResUNet** model performed with an accuracy of ** ** and an F1 Score of ** **.
+##### Matrices With Scores
+![Matrices With Scores](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/df68bdb1-876d-454a-a630-f2c470c311a7)
+
+The  **ResUNet** model performed with an accuracy of **0.98** and an F1 Score of **0.98**.
 
 ### Visualizing Results
 
-Visualizations are created to understand the models' performance.
+#### Visualization of MRI Scans with Original and AI Predicted Masks
 
-
+![Visualization of MRI Scans with Original and AI Predicted Masks](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/cac07bab-796e-4549-b8ca-3edd37543336)
 
 ## References
 - [Kaggle Dataset](https://www.kaggle.com/datasets)
+- [Excellent Resource on transfer learning by Dipanjan Sarkar](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
+- [Article by Jason Brownlee on transfer learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/)
+- [Link to ResNet paper entitled (Deep Residual Learning for Image Recognition)](https://arxiv.org/pdf/1512.03385.pdf)
+- Resunet Resouces
+  - [Paper 1](https://arxiv.org/abs/1505.04597)
+  - [Paper 2](https://arxiv.org/abs/1904.00592)
+  - [Great Article](https://aditi-mittal.medium.com/introduction-to-u-net-and-res-net-for-image-segmentation-9afcb432ee2f)
