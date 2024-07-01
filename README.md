@@ -90,8 +90,7 @@ The  **ResUNet** model performed with an accuracy of **0.98** and an F1 Score of
 ### Visualizing Results
 
 #### Visualization of MRI Scans with Original and AI Predicted Masks
-
-![Visualization of MRI Scans with Original and AI Predicted Masks](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/cac07bab-796e-4549-b8ca-3edd37543336)
+![Visualization of MRI Scans with Original and AI Predicted Masks](https://github.com/QHaider4622/AI-Assisted-Brain-Tumor-Localization-and-Classification-in-Medical-Imaging/assets/79516393/894ba023-7990-4e1f-8f18-898bf5b72c15)
 
 ## References
 - [Kaggle Dataset](https://www.kaggle.com/datasets)
