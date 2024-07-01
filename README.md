@@ -1,6 +1,6 @@
 # AI Assisted Brain Tumor Localization and Classification in Medical Imaging
 
-This project focuses on classifying MRI images to determine whether they have tumors and segmenting the tumor regions using advanced deep learning techniques. The dataset contains MRI images with corresponding masks indicating tumor regions. We utilize ResNet for classification and ResUNet for segmentation tasks. The dataset used in this project is from [Kaggle]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation).
+This project focuses on classifying MRI images to determine whether they have tumors and segmenting the tumor regions using advanced deep learning techniques. The dataset contains MRI images with corresponding masks indicating tumor regions. We utilize ResNet for classification and ResUNet for segmentation tasks. The dataset used in this project is from [Kaggle](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation).
 
 ## Dataset
 
