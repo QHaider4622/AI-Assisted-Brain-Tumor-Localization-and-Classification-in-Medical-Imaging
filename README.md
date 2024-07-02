@@ -101,4 +101,4 @@ The  **ResUNet** model performed with an accuracy of **0.98** and an F1 Score of
   - [Paper 1](https://arxiv.org/abs/1505.04597)
   - [Paper 2](https://arxiv.org/abs/1904.00592)
   - [Great Article](https://aditi-mittal.medium.com/introduction-to-u-net-and-res-net-for-image-segmentation-9afcb432ee2f)
-  - [Link to Weights](https://drive.google.com/drive/folders/12AgjyExAPuSQ6WmvQUMaGmpS2m4wjb1w?usp=drive_link)
+- [Link to Weights](https://drive.google.com/drive/folders/12AgjyExAPuSQ6WmvQUMaGmpS2m4wjb1w?usp=drive_link)
